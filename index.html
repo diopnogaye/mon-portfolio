@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio | Développeuse Web</title>
+    
+    <!-- Google Fonts (Exemple avec Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <!-- Vous pouvez ajouter un nom ici -->
+            <div class="logo">Mon<span>Portfolio</span></div> 
+            <ul>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="hero">
+            <h1>Bonjour, je suis Nogaye Diop</h1>
+            <p>Développeuse Web en pleine renaissance technologique.</p>
+            <button id="btnTheme">Changer de thème</button>
+        </section>
+
+        <section id="about">
+            <h2>À propos</h2>
+            <p>Ancienne développeuse, je reviens dans le monde du code avec passion après une pause de deux ans.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Mes Réalisations</h2>
+            <div class="project-grid">
+                
+                <!-- Projet 1 -->
+                <article class="card">
+                    <div class="project-image">
+                        <img src="img/projet-1.png" alt="Aperçu de mon premier projet">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mon Premier Site</h3>
+                        <p>Une page interactive utilisant HTML, CSS et JavaScript avec un mode sombre.</p>
+                        <a href="#" class="btn-small">Voir le code</a>
+                    </div>
+                </article>
+        
+                <!-- Projet 2 -->
+                <article class="card">
+                    <div class="project-image">
+                        <img src="img/projet-2.png" alt="Aperçu du projet 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard Admin</h3>
+                        <p>Maquette d'un tableau de bord responsive réalisé avec Flexbox.</p>
+                        <a href="#" class="btn-small">Voir le code</a>
+                    </div>
+                </article>
+        
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 - Réalisé avec passion</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
